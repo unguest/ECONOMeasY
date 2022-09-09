@@ -1,0 +1,18 @@
+{
+
+    "manifest_version": 2,
+    "name": "ECONOMeasY",
+    "version": "1.0",
+  
+    "description": "'En bas de chez moi j'ai un boulanger qui vend sa baguette 1 euro 15, mais bon, je l'aime pas trop. A. J'",
+  
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*/mod/quiz/*"],
+        "js": ["main.js"]
+      }
+    ]
+  
+  }
+  
