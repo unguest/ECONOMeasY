@@ -10,9 +10,8 @@
     "content_scripts": [
       {
         "matches": ["*://*/mod/quiz/*"],
-        "js": ["main.js"]
+        "js": ["questions_answers.js","main.js"]
       }
     ]
   
-  }
-  
+}
